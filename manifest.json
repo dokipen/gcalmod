@@ -1,0 +1,28 @@
+{
+  "manifest_version": 2,
+
+  "name": "Google Calendar Mod",
+  "description": "My mods to gcal",
+  "version": "0.3",
+  "homepage_url": "http://dokipen.github.io/gcalmod",
+
+  "permissions": [
+    "https://www.google.com/calendar"
+  ],
+
+  "content_scripts": [{
+    "js": [ "content.js" ],
+    "matches": [ "https://www.google.com/calendar/*" ],
+    "run_at": "document_end"
+  }],
+
+  "web_accessible_resources": [
+    "inject.js"
+  ],
+
+  "icons": {
+    "16": "img/16.png",
+    "48": "img/48.png",
+    "128": "img/128.png"
+  }
+}
