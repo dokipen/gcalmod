@@ -4,7 +4,7 @@
   "name": "Google Calendar Mod",
   "description": "My mods to gcal",
   "version": "0.3",
-  "homepage_url": "http://dokipen.github.io/gcalmod",
+  "homepage_url": "https://github.com/dokipen/gcalmod",
 
   "permissions": [
     "https://www.google.com/calendar"
